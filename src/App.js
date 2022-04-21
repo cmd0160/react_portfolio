@@ -1,23 +1,20 @@
-import './App.css';
+import React from 'react'
+import './App.css'
+import Home from './components/Home.js'
+import Nav from './components/Nav'
+import Footer from './components/Footer'
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav />
+      <main>
+        <Home />
+      </main>
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

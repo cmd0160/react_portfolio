@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@700;800&display=swap');
+
+.nav_bar {
+    background-color: #0b122a;
+    color: white;
+    font-family: Khula;
+}
+
+.icon_con {
+  margin: auto;
+  padding-left: 40px;
+}
+
+.nav_con {
+    height: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    justify-content: end;
+    align-content: flex-end;
+}
+
+.nav, a {
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+
+.projects {
+    padding-right: 10px;
+}
+
