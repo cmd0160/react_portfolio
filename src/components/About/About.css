@@ -1,0 +1,26 @@
+
+.about_con {
+    /* background-image: url('../../assets/images/Crumb_img.jpeg'); */
+    color: white;
+    font-family: Khula;
+    margin: 2% auto;
+}
+
+.about_title{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    font-weight: 900;
+}
+
+.about_desc {
+    font-size: 1em;
+    text-align: left;
+    font-weight: 800;
+}
+
+.slopes_img {
+    margin-top: 2%;
+    border-radius: 50%;
+}
