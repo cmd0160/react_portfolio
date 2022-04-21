@@ -9,10 +9,10 @@ const Projects = () => {
       <h1 className="projects_title">PROJECTS</h1>
       <div className="row">
         <div className="col-md-6">
-          <a href="https://github.com/cmd0160/penguin-post">
+          <a href="https://github.com/Chewbakkah/UTA-Final-Project">
             <img
               src={RioColo}
-              alt="Penguin Post Login Page"
+              alt="Putting green sunrise"
               className="penguinPost"
             />
           </a>
@@ -21,7 +21,7 @@ const Projects = () => {
         <a href="https://github.com/cmd0160/penguin-post">
             <img
               src={PenguinPost}
-              alt="Putting green sunrise"
+              alt="Penguin Post Login Page"
               className="penguinPost"
             />
           </a>
