@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@700;800&display=swap');
+* {
+    background-color: #0b122a;
+}
+
+.home_con {
+    color: white;
+    font-family: Khula;
+}
+
+.title{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 35%;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+
+.desc {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 800;
+}
+
+.headshot_img {
+    margin-top: 2%;
+    border-radius: 50%;
+}
