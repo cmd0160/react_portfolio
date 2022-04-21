@@ -1,32 +1,33 @@
 import React from "react";
 import "./Nav.css";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
     <div className="nav_bar container-fluid">
       <div className="row">
-        <div className="col-sm-6 icon_con">
-          <a href="/" className="icon">
+        <div className="col-md-6 icon_con">
+        <NavLink to="/" className='icon'>
             ICON
-          </a>
+          </NavLink>
         </div>
-        <div className="navCom_con col-sm-6">
+        <div className="navCom_con col-md-6">
           <div className="container b">
             <div className="nav_con row">
-              <div className="nav col-sm-2">
-                <a href="/" className="about">
+              <div className="nav col-md-2">
+                <NavLink to="/about" className="about">
                   ABOUT
-                </a>
+                </NavLink>
               </div>
-              <div className="nav col-sm-2 ">
-                <a href="/" className="projects">
+              <div className="nav col-md-2 ">
+                <NavLink to="/projects" className="projects">
                   PROJECTS
-                </a>
+                </NavLink>
               </div>
-              <div className="nav col-sm-2">
-                <a href="/" className="contact">
+              <div className="nav col-md-2">
+                <NavLink to="/contact" className="contact">
                   CONTACT
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
