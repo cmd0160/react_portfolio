@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Khula:wght@700;800&display=swap');
-* {
-    background-color: #0b122a;
-}
+
 
 .home_con {
     color: white;
@@ -25,5 +22,4 @@
 
 .headshot_img {
     margin-top: 2%;
-    border-radius: 50%;
 }

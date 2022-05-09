@@ -1,32 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Khula:wght@700;800&display=swap');
-
-.nav_bar {
-    background-color: #0b122a;
-    color: white;
-    font-family: Khula;
-}
-
-.icon_con {
-  margin: auto;
-  padding-left: 40px;
-}
-
-.nav_con {
-    height: 100px;
-    padding-bottom: 30px;
-    text-align: center;
-    justify-content: end;
-    align-content: flex-end;
-}
-
-.nav, a {
-    color: white;
-    text-decoration: none;
+.navbar {
+    width: 5rem;
+    background-color: #31302e;
+    height: 100vh;
+    position: fixed;
+    display: flex;
     justify-content: center;
-    
 }
 
-.projects {
-    padding-right: 10px;
+.navbar:hover {
 }
+
+.navbar:hover .link-text {
+    display: block;
+}
+
+
+
+.navbar ul li {
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+
+}
+
 
