@@ -18,6 +18,17 @@ main {
   height: 100vh;
 }
 
+/* Utilities */
 
+.btn {
+  height: 2.6rem;
+  width: 20%;
+  text-align: center;
+  color: White;
+  border: 2px solid white;
+  transition-delay: .1s;
+}
 
-
+.btn:hover {
+  background: bisque;
+}

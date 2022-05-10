@@ -11,11 +11,11 @@
 
 .navbar i {
     color: #ee5b18;
+
 }
 
 .navbar i:hover {
     color: bisque;
-    transition-delay: .2s;
 }
 
 
