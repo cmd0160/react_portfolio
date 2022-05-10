@@ -1,6 +1,11 @@
 import React from "react";
 import "./Home.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+
+const globe = <FontAwesomeIcon icon={faGlobe} size="10x" />;
+
 const Home = () => {
   return (
     <div className="container home_con">
@@ -9,6 +14,9 @@ const Home = () => {
           <h1>Cory Davis</h1>
           <p>FULL STACK WEB DEVELOPER</p>
           <button className="btn">Contact Me</button>
+        </div>
+        <div className="globe_con col-lg-6">
+          <i className="globe">{globe}</i>
         </div>
       </div>
     </div>
