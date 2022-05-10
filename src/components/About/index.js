@@ -14,7 +14,7 @@ const About = () => {
             progressive and nuanced applications on the web. I have recently
             graduated from a Full Stack Web Development Bootcamp at the
             University of Texas at Austin and have acquired newly developed
-            skills in Javascript, CSS, MongoDB, Express, React, Node.js. I have
+            skills in Javascript, CSS, MongoDB, Express, React, and Node.js. I have
             strong leadership, organizational and preparation skills. I thrive
             in a team work environment and am extremely excited to begin a new
             chapter in my life and this new career path in Web Development. 
