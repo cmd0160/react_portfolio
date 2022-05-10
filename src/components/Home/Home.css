@@ -1,25 +1,21 @@
 
+.home_con .title {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
 
-.home_con {
+.home_con .title h1 {
     color: white;
+    font-size: 5rem;
     font-family: Khula;
-    margin: 2% auto;
-}
-
-.title{
-    font-size: 3em;
-    text-align: center;
-    margin-top: 35%;
-    margin-bottom: 0;
     font-weight: 800;
+    text-decoration: underline;
 }
 
-.desc {
-    font-size: 1.5em;
-    text-align: center;
-    font-weight: 800;
-}
-
-.headshot_img {
-    margin-top: 2%;
+.home_con p {
+    color: white;
+    font-weight: 900;
 }
