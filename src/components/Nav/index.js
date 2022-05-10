@@ -49,10 +49,17 @@ const Nav = () => {
           </NavLink>
         </li>
         <li className="nav-item-2">
-          <i className="github nav-link">{github}</i>
+          <a href="https://github.com/cmd0160" className="github nav-link">
+            {github}
+          </a>
         </li>
         <li className="nav-item-3">
-          <i className="linkedin nav-link">{linkedin}</i>
+          <a
+            href="https://www.linkedin.com/in/cory-davis-803b57224/"
+            className="linkedin nav-link"
+          >
+            {linkedin}
+          </a>
         </li>
       </ul>
     </div>

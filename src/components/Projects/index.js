@@ -14,35 +14,36 @@ const Projects = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   return (
-      <>
+    <>
       <h1 className="projects_title">Projects</h1>
-    <div className="carousel">
-      <div
-        className="carouselInner"
-        style={{ backgroundImage: `url(${images[currentImage].img})` }}
-      >
+      <div className="carousel">
         <div
-          className="left"
-          onClick={() => {
-            currentImage > 0 && setCurrentImage(currentImage - 1);
-          }}
+          className="carouselInner"
+          style={{ backgroundImage: `url(${images[currentImage].img})` }}
         >
-          {leftArrow}
-        </div>
-        <div className="center">
+          <div
+            className="left"
+            onClick={() => {
+              currentImage > 0 && setCurrentImage(currentImage - 1);
+            }}
+          >
+            {leftArrow}
+          </div>
+          <div className="center">
             <h1>{images[currentImage].title}</h1>
             <p>{images[currentImage].description}</p>
-        </div>
-        <div
-          className="right"
-          onClick={() => {
-            currentImage < images.length - 1 && setCurrentImage(currentImage + 1);
-          }}
-        >
-          {rightArrow}
+          </div>
+          <div
+            className="right"
+            onClick={() => {
+              currentImage < images.length - 1 &&
+                setCurrentImage(currentImage + 1);
+            }}
+          >
+            {rightArrow}
+          </div>
         </div>
       </div>
-    </div>
     </>
   );
 };

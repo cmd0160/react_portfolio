@@ -14,7 +14,16 @@
 
 }
 
+.navbar a {
+    color: #ee5b18;
+
+}
+
 .navbar i:hover {
+    color: bisque;
+}
+
+.navbar a:hover {
     color: bisque;
 }
 
