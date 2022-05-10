@@ -1,26 +1,40 @@
-/* 
+
 .about_con {
-    background-image: url('../../assets/images/Crumb_img.jpeg');
+    height: 100vh;
     color: white;
     font-family: Khula;
-    margin: 2% auto;
+}
+
+.img_con {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title_box {
+        height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about_title{
     font-size: 3em;
     text-align: center;
-    margin-top: 20%;
-    margin-bottom: 5%;
-    font-weight: 900;
+    font-weight: 800;
+    text-decoration: underline;
 }
 
 .about_desc {
     font-size: 1em;
+    line-height: 1.2;
+    
     text-align: left;
     font-weight: 800;
 }
 
 .slopes_img {
-    margin-top: 2%;
     border-radius: 50%;
-} */
+}
+

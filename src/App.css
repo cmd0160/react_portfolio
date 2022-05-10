@@ -33,3 +33,7 @@ main {
 .btn:hover {
   background: bisque;
 }
+
+.container {
+  margin: 0 auto;
+}
