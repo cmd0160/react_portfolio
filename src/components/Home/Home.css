@@ -36,5 +36,11 @@
     color: #ee5b18;
 }
 
-
+.contact_btn {
+    margin: 1%;
+    text-align: center;
+    color: White;
+    text-decoration: none;
+    transition-delay: .1s;
+}
 
