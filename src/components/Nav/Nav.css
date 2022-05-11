@@ -19,6 +19,9 @@
     justify-content: center;
 }
 
+/* .navbar ul li:nth-last-child(2) {
+    margin-top: auto;
+} */
 
 .navbar ul li {
     height: 5rem;
@@ -34,8 +37,7 @@
 
 .navbar i:hover {
     color: bisque;
-    opacity: 0;
-    content: '';
+    opacity: 0.2;
 }
 
 .navbar i:hover:after {
@@ -44,13 +46,14 @@
 
 .navbar a {
     color: #ee5b18;
-
 }
 
 
 
 .navbar a:hover {
     color: bisque;
+    opacity: 0.2;
+
 }
 
 
