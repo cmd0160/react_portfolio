@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="carousel_con col-lg-6">
+        <div className="carousel_con col-lg-8">
           <h3 className="projects_title">Projects</h3>
           <div className="carousel">
             <div
@@ -37,7 +37,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="project_text col-lg-6">
+        <div className="project_text col-lg-4">
           <div className="center">
             <h1>{images[currentImage].title}</h1>
             <p>{images[currentImage].description}</p>
