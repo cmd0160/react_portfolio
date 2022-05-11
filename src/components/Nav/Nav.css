@@ -9,25 +9,6 @@
     z-index: 10;
 }
 
-.navbar i {
-    color: #ee5b18;
-
-}
-
-.navbar a {
-    color: #ee5b18;
-
-}
-
-.navbar i:hover {
-    color: bisque;
-}
-
-.navbar a:hover {
-    color: bisque;
-}
-
-
 .navbar ul li {
     height: 4rem;
     display: flex;
@@ -38,5 +19,37 @@
     color: white;
 
 }
+
+
+.navbar i {
+    color: #ee5b18;
+    transition: all 0.3s ease-out;
+
+}
+
+.navbar i:hover {
+    color: bisque;
+    opacity: 0;
+    content: '';
+}
+
+.navbar i:hover:after {
+    display: none;
+}
+
+
+.navbar a {
+    color: #ee5b18;
+
+}
+
+
+
+.navbar a:hover {
+    color: bisque;
+}
+
+
+
 
 

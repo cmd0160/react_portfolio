@@ -1,6 +1,5 @@
 import React from "react";
 import slopes from "../../assets/images/Slopes.JPG";
-import background from "../../assets/images/Crumb_img.jpeg";
 import "./About.css";
 
 const About = () => {

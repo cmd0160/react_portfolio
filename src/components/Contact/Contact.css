@@ -1,0 +1,20 @@
+.contact_con {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact_info {
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact_con .text {
+    width: 60vw;
+    display: flex;
+    align-items: center;
+}

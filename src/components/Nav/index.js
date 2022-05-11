@@ -25,7 +25,7 @@ const Nav = () => {
       <ul className="navbar-nav">
         <li className="nav-item">
           <NavLink to="/">
-            <i className="home nav-link">{home}</i>
+            <i className="home nav-link" data-hover="home">{home}</i>
           </NavLink>
         </li>
         <li className="nav-item">

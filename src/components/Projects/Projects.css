@@ -6,10 +6,6 @@
     color: white
 }
 
-.row  {
-    height: 100vh;
-}
-
 .carousel_con {
     display: flex;
     flex-direction: column;
