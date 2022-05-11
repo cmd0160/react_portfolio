@@ -8,7 +8,10 @@ const Contact = () => {
         <h2 className="contact_title">Contact</h2>
         <input type="text" className="text name" placeholder="Name" />
         <input type="text" className="text email" placeholder="Email" />
-        <input type="text" className="text message" placeholder="Message" />
+        <textarea type="text" className="text message" placeholder="Message" />
+         <div>        
+          <button className="btn btn_submit">Submit</button>
+          </div>
       </div>
     </div>
   );

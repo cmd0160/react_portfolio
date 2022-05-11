@@ -1,3 +1,11 @@
+.contact_title {
+    font-family: 'Khula';
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 3rem;
+    color: white
+}
+
 .contact_con {
     height: 100vh;
     display: flex;
@@ -14,7 +22,38 @@
 
 
 .contact_con .text {
-    width: 60vw;
+    max-width: 600px;
     display: flex;
     align-items: center;
+    margin: .3rem;
+    padding: .2rem;
+    background-color: #7d7054;
+    opacity: 0.7;
+    border: 1px solid bisque;
+
 }
+
+.text::-webkit-input-placeholder {
+    color: white;
+    opacity: 0.8;
+    font-family: 'Khula';
+    font-weight: 900;
+}
+
+input:focus {
+    outline: 2px solid #ee5b18;
+}
+
+textarea:focus {
+    outline: 2px solid #ee5b18;
+}
+
+.message {
+    height: 15vh;
+}
+
+.btn_submit {
+    display: inline;
+    margin-top: 6px;
+}
+
