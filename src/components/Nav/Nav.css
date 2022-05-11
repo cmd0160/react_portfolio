@@ -1,30 +1,34 @@
+
+
 .navbar {
-    width: 5rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
     background-color: #7d7054;
     opacity: 0.7;
-    height: 100vh;
     position: fixed;
-    display: flex;
-    justify-content: center;
     z-index: 10;
     border-right: 1px solid bisque;
 }
 
-.navbar ul li {
-    height: 4rem;
+.navbar ul {
+    height: 100vh;
+    width: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-
 }
 
 
+.navbar ul li {
+    height: 5rem;
+    text-decoration: none;
+    color: white;
+}
+
 .navbar i {
     color: #ee5b18;
-    transition: all 0.3s ease-out;
+    /* transition: all 0.3s ease-out; */
 
 }
 
@@ -35,7 +39,6 @@
 }
 
 .navbar i:hover:after {
-    display: none;
 }
 
 
