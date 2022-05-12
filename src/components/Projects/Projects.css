@@ -32,8 +32,9 @@
 
 .project_text .center {
     height: 100vh;
+    width: 33vw;
+    margin-left: 10%;
     display: flex;
-    padding-left: 10vw;
     flex-direction: column;
     align-items: center;
     justify-content: center;

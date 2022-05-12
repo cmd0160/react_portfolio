@@ -9,9 +9,9 @@ const Contact = () => {
         <input type="text" className="text name" placeholder="Name" />
         <input type="text" className="text email" placeholder="Email" />
         <textarea type="text" className="text message" placeholder="Message" />
-         <div>        
+        <div>
           <button className="btn btn_submit">Submit</button>
-          </div>
+        </div>
       </div>
     </div>
   );

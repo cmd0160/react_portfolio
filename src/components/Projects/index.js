@@ -23,7 +23,7 @@ const Projects = () => {
                 currentImage > 0 && setCurrentImage(currentImage - 1);
               }}
             >
-              last
+              Prev
             </button>
             <button
               className="btn next"
@@ -32,7 +32,7 @@ const Projects = () => {
                   setCurrentImage(currentImage + 1);
               }}
             >
-              next
+              Next
             </button>
           </div>
         </div>
