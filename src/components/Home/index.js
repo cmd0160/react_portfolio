@@ -1,10 +1,10 @@
 import React from "react";
 import "./Home.css";
+import image from '../../assets/images/cd_logo.png'
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-
-const globe = <FontAwesomeIcon icon={faGlobe} size="10x" />;
+// const globe = <FontAwesomeIcon icon={faGlobe} size="10x" />;
 
 const Home = () => {
   return (
@@ -16,7 +16,8 @@ const Home = () => {
           <button className="btn"><a className="contact_btn" href="/Contact">Contact Me</a></button>
         </div>
         <div className="globe_con col-lg-6">
-          <i className="globe">{globe}</i>
+
+          <img src={image} alt="" />
         </div>
       </div>
     </div>
