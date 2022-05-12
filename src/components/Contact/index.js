@@ -18,9 +18,9 @@ const Contact = () => {
 
   return (
     <div className="container contact_con">
-      <div className="row contact_info">
+      <div className="row">
         <h2 className="contact_title">Contact</h2>
-        <form onSubmit={sendEmail}>
+        <form onSubmit={sendEmail} className="">
           <input type="text" className="text name" placeholder="Name" name="name" />
           <input type="text" className="text email" placeholder="Email Address" name="email" />
           <input type="text" className="text subject" placeholder="Subject" name="subject"  />
