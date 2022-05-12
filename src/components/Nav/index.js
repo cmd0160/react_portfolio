@@ -22,22 +22,22 @@ const Nav = () => {
       <div className="navbar">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <NavLink to="/react_portfolio">
+            <NavLink to="/">
               <i className="home nav-link" data-hover="home">{home}</i>
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/react_portfolio/About">
+            <NavLink to="/About">
               <i className="about nav-link">{about}</i>
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/react_portfolio/Projects">
+            <NavLink to="/Projects">
               <i className="projects nav-link">{projects}</i>
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/react_portfolio/Contact">
+            <NavLink to="/Contact">
               <i className="contact nav-link">{contact}</i>
             </NavLink>
           </li>
