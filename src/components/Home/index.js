@@ -16,8 +16,7 @@ const Home = () => {
           <button className="btn"><a className="contact_btn" href="/Contact">Contact Me</a></button>
         </div>
         <div className="globe_con col-lg-6">
-
-          <img src={image} alt="" />
+          <img src={image} alt="cd logo" />
         </div>
       </div>
     </div>
