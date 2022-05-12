@@ -1,0 +1,40 @@
+
+.about_con {
+    height: 100vh;
+    color: white;
+    font-family: Khula;
+}
+
+.img_con {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title_box {
+        height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_title{
+    font-size: 3em;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.about_desc {
+    font-size: 1em;
+    line-height: 1.2;
+    
+    text-align: left;
+    font-weight: 800;
+}
+
+.slopes_img {
+    border-radius: 50%;
+}
+

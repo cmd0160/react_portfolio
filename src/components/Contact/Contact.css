@@ -1,0 +1,68 @@
+.contact_title {
+    font-family: 'Khula';
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 3rem;
+    color: white
+}
+
+.contact_con {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact_info {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+form .text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: .5rem;
+    padding: .2rem;
+    background-color: #7d7054;
+    opacity: 0.7;
+    color: white;
+    font-weight: 800;
+
+
+}
+
+.text::-webkit-input-placeholder {
+    color: white;
+    opacity: 0.8;
+    font-family: 'Khula';
+    font-weight: 800;
+}
+
+input:focus {
+    outline: 2px solid #ee5b18;
+    color: white;
+    font-weight: 800;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+textarea:focus {
+    outline: 2px solid #ee5b18;
+}
+
+.message {
+    height: 15vh;
+}
+
+.btn_submit {
+    display: inline;
+    margin-top: 1.3rem;
+}
+

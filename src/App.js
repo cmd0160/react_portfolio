@@ -1,23 +1,29 @@
-import './App.css';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-function App() {
+import Home from "./components/Home/index.js";
+import About from ".//components/About/index.js";
+import Projects from "./components/Projects/index.js";
+import Contact from "./components/Contact/index.js";
+import Nav from "./components/Nav";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Nav />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Projects" element={<Projects />} />
+            <Route path="/Contact" element={<Contact />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,64 @@
+.projects_title {
+    font-family: 'Khula';
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 3rem;
+    color: white
+}
+
+.carousel_con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel {
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselInner {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.project_text .center {
+    height: 100vh;
+    width: 33vw;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_con {
+    display: flex;
+    margin: 1%;
+    justify-content: center;
+}
+
+
+
+.center h1 {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Khula';
+    font-weight: 500;
+}
+
+.center p {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Khula';
+    font-weight: 600;
+
+}
