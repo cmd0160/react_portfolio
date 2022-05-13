@@ -22,7 +22,7 @@ const Nav = () => {
       <div className="navbar">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <NavLink to="/">
+            <NavLink to="/react_portfolio/">
               <i className="home nav-link" data-hover="home">{home}</i>
             </NavLink>
           </li>
