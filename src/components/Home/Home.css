@@ -52,10 +52,14 @@
 
 .contact_btn {
     margin: 1%;
+    padding: 15px 16px;
     text-align: center;
     color: White;
     text-decoration: none;
-    transition-delay: .1s;
+}
+
+.contact_btn:hover {
+    color: black;
 }
 
 

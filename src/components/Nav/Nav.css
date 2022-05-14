@@ -18,10 +18,6 @@
     justify-content: center;
 }
 
-/* .navbar ul li:nth-last-child(2) {
-    margin-top: auto;
-} */
-
 .navbar ul li {
     height: 5rem;
     text-decoration: none;
@@ -30,13 +26,21 @@
 
 .navbar i {
     color: #ee5b18;
-    /* transition: all 0.3s ease-out; */
-
 }
 
-.navbar i:hover {
-    color: bisque;
-    opacity: 0.2;
+.navbar .nav_text {
+    display: none;
+}
+
+.navbar .span_link:hover i {
+    display: none;
+}
+.navbar .span_link:hover .nav_text {
+    display: block;
+    color: #ee5b18;
+    font-weight: 900;
+    text-decoration: none;
+    margin-top: 15%;
 }
 
 .navbar a {
@@ -45,7 +49,8 @@
 
 .navbar a:hover {
     color: bisque;
-    opacity: 0.2;
+    opacity: 1;
+    text-decoration: none;
 
 }
 
