@@ -62,3 +62,36 @@
     font-weight: 600;
 
 }
+
+@media (max-width: 414px) {
+
+    .projects_title {
+        margin: 2rem 0 0 4rem;
+    }
+
+    .carousel {
+        height: 45vh;
+        width: 80%;
+        align-self: center;
+        margin-left: 3rem;
+    }
+
+    .btn_con {
+        display: flex;
+        margin-left: 3rem;
+        margin-top: .6rem;
+    }
+
+    .project_text {
+        justify-content: center;
+    }
+
+    .project_text .center {
+        height: 50vh;
+        width: 85vw;
+        justify-content: flex-start;
+        margin-top: 2rem;
+
+    }
+
+}
