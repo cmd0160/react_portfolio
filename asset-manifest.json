@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.7cb5e2dc.css",
-    "main.js": "/react_portfolio/static/js/main.012d43ea.js",
+    "main.js": "/react_portfolio/static/js/main.58cc4c5c.js",
     "static/js/787.1ed0c42c.chunk.js": "/react_portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Penguin-post-login.png": "/react_portfolio/static/media/Penguin-post-login.167c0551b477c58dd6b6.png",
     "static/media/riocolo-cup.jpg": "/react_portfolio/static/media/riocolo-cup.b948dc74c6087cf41a95.jpg",
@@ -10,11 +10,11 @@
     "static/media/cd_logo.png": "/react_portfolio/static/media/cd_logo.a401df4909b403ae9778.png",
     "index.html": "/react_portfolio/index.html",
     "main.7cb5e2dc.css.map": "/react_portfolio/static/css/main.7cb5e2dc.css.map",
-    "main.012d43ea.js.map": "/react_portfolio/static/js/main.012d43ea.js.map",
+    "main.58cc4c5c.js.map": "/react_portfolio/static/js/main.58cc4c5c.js.map",
     "787.1ed0c42c.chunk.js.map": "/react_portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cb5e2dc.css",
-    "static/js/main.012d43ea.js"
+    "static/js/main.58cc4c5c.js"
   ]
 }
