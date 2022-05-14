@@ -20,8 +20,6 @@
     justify-content: center;
 }
 
-
-
 form .text{
     width: 100%;
     display: flex;
@@ -66,3 +64,22 @@ textarea:focus {
     margin-top: 1.3rem;
 }
 
+@media (max-width: 414px) {
+
+.contact_title {
+    margin-left: 1.4rem;
+    }
+
+    form .text{
+        width: 80%;
+    }
+
+    form {
+        margin-left: 3.3rem;
+    }
+
+    .btn_submit {
+        margin-right: 4rem;
+    }
+
+}

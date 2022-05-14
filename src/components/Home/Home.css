@@ -33,14 +33,15 @@
 
 .globe_con img {
     height: 30%;
-    opacity: 0.2;
+    padding: 10px;
+    opacity: 0.4;
     border-bottom: 2px dotted bisque;
     border-right:  10px solid bisque;
     transition: 5s ease-out;
 }
 .globe_con img:hover {
-    height: 80%;
-    opacity: 0.3;
+    height: 40%;
+    opacity: 0.6;
 
 }
 
@@ -56,6 +57,7 @@
     text-decoration: none;
     transition-delay: .1s;
 }
+
 
 @media (max-width: 820px) {
 
@@ -86,7 +88,7 @@
 @media (max-width: 414px) {
 
     .home_con .title {
-        margin-left: 11%;
+        margin-left: 6%;
         padding-bottom: 7%;
         height: 50vh;
         justify-content: end;
@@ -102,7 +104,7 @@
 
     .globe_con img {
         height: 40%;
-        margin-left: 25px;
+        margin-right: 5%;
     }
 
 }
