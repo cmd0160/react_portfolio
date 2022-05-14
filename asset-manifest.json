@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.14b1c9df.css",
-    "main.js": "/react_portfolio/static/js/main.d81e849c.js",
+    "main.css": "/react_portfolio/static/css/main.7cb5e2dc.css",
+    "main.js": "/react_portfolio/static/js/main.012d43ea.js",
     "static/js/787.1ed0c42c.chunk.js": "/react_portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Headshots-2.png": "/react_portfolio/static/media/Headshots-2.d67119e12ebeb58ef265.png",
     "static/media/Penguin-post-login.png": "/react_portfolio/static/media/Penguin-post-login.167c0551b477c58dd6b6.png",
     "static/media/riocolo-cup.jpg": "/react_portfolio/static/media/riocolo-cup.b948dc74c6087cf41a95.jpg",
     "static/media/Hubble.jpeg": "/react_portfolio/static/media/Hubble.995780b1b99b7ed4c19c.jpeg",
     "static/media/Slopes.JPG": "/react_portfolio/static/media/Slopes.d151518f612e3f935af1.JPG",
     "static/media/cd_logo.png": "/react_portfolio/static/media/cd_logo.a401df4909b403ae9778.png",
     "index.html": "/react_portfolio/index.html",
-    "main.14b1c9df.css.map": "/react_portfolio/static/css/main.14b1c9df.css.map",
-    "main.d81e849c.js.map": "/react_portfolio/static/js/main.d81e849c.js.map",
+    "main.7cb5e2dc.css.map": "/react_portfolio/static/css/main.7cb5e2dc.css.map",
+    "main.012d43ea.js.map": "/react_portfolio/static/js/main.012d43ea.js.map",
     "787.1ed0c42c.chunk.js.map": "/react_portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14b1c9df.css",
-    "static/js/main.d81e849c.js"
+    "static/css/main.7cb5e2dc.css",
+    "static/js/main.012d43ea.js"
   ]
 }
