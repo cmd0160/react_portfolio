@@ -26,10 +26,11 @@ main {
   text-align: center;
   color: White;
   border: 2px solid white;
-  transition-delay: .1s;
+
 }
 
 .btn:hover {
   background: bisque;
+
 }
 
