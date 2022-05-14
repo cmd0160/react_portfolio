@@ -1,5 +1,6 @@
 import penguin from "../assets/images/Penguin-post-login.png";
 import ricolo from "../assets/images/riocolo-cup.jpg";
+import portfolio from "../assets/images/React_Portfolio.png"
 
 export const images = [
   {
@@ -19,5 +20,14 @@ export const images = [
       url: "https://github.com/cmd0160/UTA-Final-Project",
       deployed_site: "https://www.riocoloradogolf.com/",
     img: ricolo,
+  },
+  {
+    title: "React Portfolio",
+    description:
+      "This project is an application that I built to showcase the various projects that I have worked through during the course of my Full Stack Development Bootcamp. This features a fully responsize design, EmailJS integration for the contact page and a 1980's scifi theme!",
+      tech: "HTML, CSS, Javscript, React, ReactRouter, EmailJS",
+      url: "https://github.com/cmd0160/react_portfolio",
+      deployed_site: "https://cmd0160.github.io/react_portfolio/",
+    img: portfolio,
   },
 ];
