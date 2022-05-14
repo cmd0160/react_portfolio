@@ -40,8 +40,27 @@ const Projects = () => {
         <div className="project_text col-lg-4">
           <div className="center">
             <h1>{images[currentImage].title}</h1>
-            <p>{images[currentImage].description}</p>
-            <button className="btn">View Project</button>
+            <p>
+              {images[currentImage].description}
+              <br />
+              <br />
+              <span>Technologies:</span>
+              <br />
+              {images[currentImage].tech}
+            </p>
+            <div className="button_box">
+              {" "}
+              <button className="btn">
+                <a className="project_btn" href={images[currentImage].url}>
+                  View Project
+                </a>
+              </button>
+              <button className="btn">
+                <a className="project_btn deployed_btn" href={images[currentImage].deployed_site}>
+                  View Site
+                </a>
+              </button>
+            </div>
           </div>
         </div>
       </div>
