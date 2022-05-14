@@ -37,7 +37,7 @@
 }
 .navbar .span_link:hover .nav_text {
     display: block;
-    color: #ee5b18;
+    color: bisque;
     font-weight: 900;
     text-decoration: none;
     margin-top: 15%;
