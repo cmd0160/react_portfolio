@@ -19,42 +19,59 @@ const linkedin = <FontAwesomeIcon icon={faLinkedin} size="2x" />;
 
 const Nav = () => {
   return (
-      <div className="navbar">
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <NavLink to="/react_portfolio/">
-              <i className="home nav-link" data-hover="home">{home}</i>
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink to="/react_portfolio/About">
-              <i className="about nav-link">{about}</i>
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink to="/react_portfolio/Projects">
-              <i className="projects nav-link">{projects}</i>
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink to="/react_portfolio/Contact">
-              <i className="contact nav-link">{contact}</i>
-            </NavLink>
-          </li>
-          <li className="nav-item-2">
-            <a href="https://github.com/cmd0160" className="github nav-link">
-              {github}
-            </a>
-          </li>
-          <li className="nav-item-3">
-            <a
-              href="https://www.linkedin.com/in/cory-davis-803b57224/"
-              className="linkedin nav-link"
-            >
-              {linkedin}
-            </a>
-          </li>
-        </ul>
+    <div className="navbar">
+      <ul className="navbar-nav">
+        <li className="nav-item">
+          <NavLink to="/react_portfolio/">
+            <span className="span_link">
+              <i className="home nav-link" data-hover="home">
+                {home}
+              </i>
+              <span className="nav_text">Home</span>
+            </span>
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="/react_portfolio/About">
+            <span className="span_link">
+              {" "}
+              <i className="about nav-link">{about}</i>{" "}
+              <span className="nav_text">About</span>
+            </span>
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="/react_portfolio/Projects">
+            <span className="span_link">
+              {" "}
+              <i className="projects nav-link">{projects}</i>{" "}
+              <span className="nav_text">Projects</span>
+            </span>
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="/react_portfolio/Contact">
+            <span className="span_link">
+              {" "}
+              <i className="contact nav-link">{contact}</i>{" "}
+              <span className="nav_text">Contact</span>
+            </span>
+          </NavLink>
+        </li>
+        <li className="nav-item-2">
+          <a href="https://github.com/cmd0160" className="github nav-link">
+            {github}
+          </a>
+        </li>
+        <li className="nav-item-3">
+          <a
+            href="https://www.linkedin.com/in/cory-davis-803b57224/"
+            className="linkedin nav-link"
+          >
+            {linkedin}
+          </a>
+        </li>
+      </ul>
     </div>
   );
 };
