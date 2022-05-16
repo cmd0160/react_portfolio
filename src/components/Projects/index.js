@@ -50,13 +50,13 @@ const Projects = () => {
             </p>
             <div className="button_box">
               {" "}
-              <button className="btn">
-                <a className="project_btn" href={images[currentImage].url}>
+              <button className="project_btn btn">
+                <a href={images[currentImage].url}>
                   View Project
                 </a>
               </button>
-              <button className="btn">
-                <a className="project_btn deployed_btn" href={images[currentImage].deployed_site}>
+              <button className="deployed_btn btn">
+                <a href={images[currentImage].deployed_site}>
                   View Site
                 </a>
               </button>
