@@ -40,7 +40,9 @@
 
 @media (max-width: 414px) {
 
-
+    .about_title{
+        font-size: 2em;
+    }
 
     .img_con {
         height: 50vh;
@@ -51,11 +53,12 @@
         height: 50vh;
         align-items: center;
         margin-left: 1.4rem;
-        margin-top: 15%;
+        margin-top: 20%;
     }
 
     .about_desc {
-        font-size: 12px;
+        font-size: .75rem;
+        line-height: 1.4;
         max-width: 300px;
     }
 
@@ -63,7 +66,7 @@
         border-radius: 50%;
         max-width: 70%;
         margin-left: 1.4rem;
-        margin-bottom: 40%;
+        margin-bottom: 30%;
     }
 
 }
