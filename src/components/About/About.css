@@ -1,6 +1,6 @@
 
 .about_con {
-    height: 100vh;
+    height: 100%;
     color: white;
     font-family: Khula;
 }
@@ -39,6 +39,8 @@
 }
 
 @media (max-width: 414px) {
+
+
 
     .img_con {
         height: 50vh;
