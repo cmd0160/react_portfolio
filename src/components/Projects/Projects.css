@@ -84,7 +84,38 @@
     margin: 1%;
 }
 
+@media (max-width: 991px) {
 
+    .projects_title {
+        margin: 3rem 0 0 3rem;
+    }
+
+    .carousel {
+        height: 35vh;
+        width: 100%;
+        align-self: center;
+        margin-left: 6rem;
+    }
+
+    .btn_con {
+        display: flex;
+        margin-left: 6rem;
+        margin-top: .6rem;
+    }
+
+    .project_text {
+        align-items: center;
+    }
+
+    .project_text .center {
+        height: 50vh;
+        width: 60vw;
+        justify-content: flex-start;
+        margin-top: 8%;
+        margin-left: 13%;
+
+    }
+}
 
 @media (max-width: 414px) {
 
@@ -93,7 +124,7 @@
     }
 
     .carousel {
-        height: 45vh;
+        height: 50vh;
         width: 80%;
         align-self: center;
         margin-left: 3rem;
