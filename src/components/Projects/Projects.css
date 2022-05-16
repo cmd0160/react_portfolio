@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-right: 5% ;
 }
 
 .carousel {
@@ -19,6 +20,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+
 }
 
 .carouselInner {
@@ -33,7 +37,7 @@
 .project_text .center {
     height: 100vh;
     width: 33vw;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,13 +50,12 @@
     justify-content: center;
 }
 
-
-
 .center h1 {
     font-size: 2rem;
     color: white;
     font-family: 'Khula';
-    font-weight: 500;
+    font-weight: 800;
+    text-decoration: underline;
 }
 
 .center p {
@@ -62,6 +65,26 @@
     font-weight: 600;
 
 }
+
+.project_btn {
+    text-decoration: none;
+    color: white;
+}
+
+.project_btn:hover {
+    color: black;
+}
+.deployed_btn:hover {
+    color: black;
+}
+
+.button_box {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+
+
 
 @media (max-width: 414px) {
 

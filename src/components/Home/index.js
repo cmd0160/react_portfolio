@@ -13,7 +13,7 @@ const Home = () => {
         <div className="title col-lg-6">
           <h1>Cory Davis</h1>
           <p>FULL STACK WEB DEVELOPER</p>
-          <button className="btn"><a className="contact_btn" href="/Contact">Contact Me</a></button>
+          <button className="btn"><a className="contact_btn" href="/react_portfolio/Contact">Contact Me</a></button>
         </div>
         <div className="globe_con col-lg-6">
           <img src={image} alt="cd logo" />
