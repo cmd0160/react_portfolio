@@ -61,6 +61,15 @@
         width: 3rem;
     }
 
+    .navbar .span_link:hover .nav_text {
+        display: none;
+    }
+
+    .navbar .span_link:hover i {
+        display: block;
+        color: bisque;
+    }
+
 }
 
 
