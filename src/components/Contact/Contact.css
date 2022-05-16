@@ -1,3 +1,7 @@
+.container {
+    height: 100%;
+}
+
 .contact_title {
     font-family: 'Khula';
     font-weight: 800;
