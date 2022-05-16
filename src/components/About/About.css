@@ -38,35 +38,97 @@
     border-radius: 50%;
 }
 
+@media (max-width: 991px) {
+
+    .about_title{
+        font-size: 2em;
+        text-align: center;
+        font-weight: 800;
+        text-decoration: underline;
+    }
+    
+    .about_desc {
+        font-size: .75rem;
+        line-height: 1.4;
+        
+        text-align: left;
+        font-weight: 800;
+    }
+    
+    .slopes_img {
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 820px) {
+    .about_con {
+        margin-left: 12%;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .img_con {
+        height: 50vh;
+    }
+    
+    .title_box {
+        height: 50vh;
+    }
+
+    .about_title{
+        font-size: 2em;
+    }
+    
+    .about_desc {
+        font-size: .75em;
+        line-height: 1.2;
+        
+        text-align: left;
+        font-weight: 800;
+    }
+    
+    .slopes_img {
+        border-radius: 50%;
+        max-width: 70%;
+        margin-bottom: 20%;
+        margin-left: 15%
+
+    }
+}
+
+
+
 @media (max-width: 414px) {
+  
 
     .about_title{
         font-size: 2em;
     }
 
     .img_con {
-        height: 50vh;
+        height: 50%;
+        width: 90%;
         align-items: center;
     }
 
     .title_box {
-        height: 50vh;
+        height: 50%;
+        width: 90%;
         align-items: center;
-        margin-left: 1.4rem;
         margin-top: 20%;
     }
 
     .about_desc {
         font-size: .75rem;
         line-height: 1.4;
-        max-width: 300px;
     }
 
     .slopes_img {
         border-radius: 50%;
         max-width: 70%;
-        margin-left: 1.4rem;
-        margin-bottom: 30%;
+        margin-top: 10%;
+        margin-left: 0;
     }
 
 }
