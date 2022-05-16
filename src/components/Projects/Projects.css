@@ -54,7 +54,8 @@
     font-size: 2rem;
     color: white;
     font-family: 'Khula';
-    font-weight: 500;
+    font-weight: 800;
+    text-decoration: underline;
 }
 
 .center p {
@@ -80,6 +81,7 @@
 .button_box {
     display: flex;
     flex-direction: row;
+    margin: 1%;
 }
 
 
