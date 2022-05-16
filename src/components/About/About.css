@@ -40,7 +40,9 @@
 
 @media (max-width: 414px) {
 
-
+    .about_title{
+        font-size: 2em;
+    }
 
     .img_con {
         height: 50vh;
@@ -55,7 +57,8 @@
     }
 
     .about_desc {
-        font-size: 12px;
+        font-size: .75rem;
+        line-height: 1.4;
         max-width: 300px;
     }
 

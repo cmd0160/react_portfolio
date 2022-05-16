@@ -120,19 +120,20 @@
 @media (max-width: 414px) {
 
     .projects_title {
-        margin: 2rem 0 0 4rem;
+        font-size: 2rem;
+        margin: 2rem 0 .25rem 4.4rem;
     }
 
     .carousel {
         height: 50vh;
         width: 80%;
         align-self: center;
-        margin-left: 3rem;
+        margin-left: 4rem;
     }
 
     .btn_con {
         display: flex;
-        margin-left: 3rem;
+        margin-left: 4rem;
         margin-top: .6rem;
     }
 
@@ -148,4 +149,19 @@
 
     }
 
+    .center h1 {
+        font-size: 1.5rem;
+    }
+
+    .center p {
+        font-size: 1rem;
+        line-height: 1.4;
+        font-size: .75rem;
+        font-weight: 800;
+        margin-bottom: .25rem;
+    }
+
+    .button_box {
+        margin-right: 5%;
+    }
 }
