@@ -29,6 +29,10 @@
     color: #ee5b18;
 }
 
+.navbar span {
+    height: 100%;
+}
+
 .navbar .nav_text {
     display: none;
 }
