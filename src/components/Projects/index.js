@@ -6,8 +6,8 @@ const Projects = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   return (
-    <div className="container">
-      <div className="row">
+    <div className="container projects_con">
+      {/* <div className="row"> */}
         <div className="carousel_con col-lg-8">
           <h3 className="projects_title">Projects</h3>
           <div className="carousel">
@@ -63,7 +63,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 };

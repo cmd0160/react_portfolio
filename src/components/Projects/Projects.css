@@ -1,3 +1,8 @@
+.projects_con {
+    display: flex;
+    flex-direction: row;
+}
+
 .projects_title {
     font-family: 'Khula';
     font-weight: 800;
@@ -10,7 +15,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 5% ;
+    margin-left: -2%;
 }
 
 .carousel {
@@ -37,6 +42,8 @@
 .project_text .center {
     height: 100vh;
     width: 33vw;
+    margin-left: 5%;
+    padding: 10%;
     /* margin-left: 10%; */
     display: flex;
     flex-direction: column;
@@ -125,6 +132,11 @@ button a {
 }
 
 @media (max-width: 414px) {
+
+    .projects_con {
+        display: flex;
+        flex-direction: column;
+    }
 
     .projects_title {
         font-size: 2rem;
