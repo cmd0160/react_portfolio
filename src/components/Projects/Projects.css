@@ -99,6 +99,10 @@ button a {
 
 
 @media (max-width: 991px) {
+    .projects_con {
+        display: flex;
+        flex-direction: column;
+    }
 
     .projects_title {
         margin: 3rem 0 0 3rem;
@@ -123,10 +127,30 @@ button a {
 
     .project_text .center {
         height: 50vh;
-        width: 60vw;
+        width: 80vw;
         justify-content: flex-start;
-        margin-top: 8%;
-        margin-left: 13%;
+        margin-left: 2rem;
+
+    }
+}
+
+@media (max-width: 575px) {
+
+    .btn_con {
+        display: flex;
+        margin-left: 6rem;
+        margin-top: .6rem;
+    }
+
+    .project_text {
+        align-items: center;
+    }
+
+    .project_text .center {
+        height: 50vh;
+        width: 80vw;
+        justify-content: flex-start;
+        margin-left: 6rem;
 
     }
 }
@@ -165,6 +189,7 @@ button a {
         width: 85vw;
         justify-content: flex-start;
         margin-top: 2rem;
+        margin-left: 3rem;
 
     }
 
