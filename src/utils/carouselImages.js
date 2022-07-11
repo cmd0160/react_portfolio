@@ -1,8 +1,18 @@
 import penguin from "../assets/images/Penguin-post-login.png";
 import ricolo from "../assets/images/riocolo-cup.jpg";
 import portfolio from "../assets/images/React_Portfolio.png"
+import ntsa from "../assets/images/fullScreen.png"
 
 export const images = [
+  {
+    title: "North Texas Suzuki Association Website",
+    description:
+      "This project featured a full-scale rebuild of the North Texas Suzuki Association's website. This site has been modernized with the use of MERN stack technologies, a custom logo, modern CSS and Responsive design. ",
+    tech: "Html, CSS, JS, Apollo Server/Client, Express, Font Awesome, Framer Motion, GraphQL, Heroku, MongoDB, Mongoose, Node.js, React",
+    url: "https://github.com/cmd0160/ntsa_website",
+    deployed_site: "https://obscure-springs-05343.herokuapp.com/",
+    img: ntsa,
+  },
   {
     title: "PenguinPost",
     description:
