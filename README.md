@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# North Texas Suzuki Association Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[GITHUB PAGES LINK](https://cmd0160.github.io/react_portfolio/)
 
-## Available Scripts
+[GITHUB REPO](https://github.com/cmd0160/react_portfolio)
 
-In the project directory, you can run:
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Description](#description-of-the-project)
+- [Languages](#languages-used)
+- [Technologies & Libraries](#technologies-and-libraries-used)
+- [Features](#features)
+- [Future Development](#future-development)
+- [Team Members](#team-members)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description Of the Project
 
-### `npm test`
+This is the repo for my React portfolio. It features some info about myself, recent projects and a contact page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Languages Used
 
-### `npm run build`
+- HTML
+- CSS
+- JavaScript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies and Libraries Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Font Awesome
+- Framer Motion
+- ReactJS
+- EmailJS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Custom Logo Design
+- Side Navigation
+- EmailJS Integration in contact page
+- onClick project rotation on Project Page
+- Fully responsive design considerations
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Future Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Framer Motion animation on the Home Page.
+- Timer rotation for projects.
+- Add icons for technologies on project page.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Developer(s)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[![GitHub Contributors Image](https://contrib.rocks/image?repo=cmd0160/ntsa_website)](https://github.com/cmd0160/ntsa_website/graphs/contributors)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Cory Davis** - [Full Stack](https://github.com/cmd0160)
 
-### Code Splitting
+## Full Screen 
+![Full Screen](src/assets/images/portfolioFullScreen.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Mobile
+![Full Screen](src/assets/images/portfolioMobile.png)
